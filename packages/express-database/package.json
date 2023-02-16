@@ -1,0 +1,40 @@
+{
+  "name": "@astlaure/express-database",
+  "version": "1.0.0",
+  "description": "Database default configs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.lib.json",
+    "build:watch": "tsc --watch --project ./tsconfig.lib.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "express"
+  ],
+  "author": "Alexandre St-Laurent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astlaure/express-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/astlaure/express-toolkit/issues"
+  },
+  "homepage": "https://github.com/astlaure/express-toolkit#readme",
+  "peerDependencies": {
+    "sequelize": "^6.28.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/validator": "^13.7.12",
+    "sqlite3": "^5.1.4",
+    "typescript": "^4.9.5"
+  }
+}
